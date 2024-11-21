@@ -1,5 +1,5 @@
 # Hugo configuration file
-title: My Site
+title: aculei-doc
 
 # import hextra as module
 module:
@@ -24,33 +24,44 @@ menu:
     - name: About
       pageRef: /about
       weight: 2
-    - name: Contact ↗
-      url: "https://github.com/imfing"
-      weight: 3
     - name: Search
-      weight: 4
+      weight: 3
       params:
         type: search
-    - name: GitHub
+    - name: Contact
+      weight: 4
+      url: "Tobia Faverio"
+    - name: Github ↗
+      url: "https://github.com/aculei"
       weight: 5
-      url: "https://github.com/imfing/hextra-starter-template"
       params:
         icon: github
-    - name: Twitter
+    - name: Instagram
       weight: 6
-      url: "https://twitter.com/"
+      url: "https://instagram.com/"
       params:
-        icon: x-twitter
+        icon: instagram
 
 params:
   navbar:
     displayTitle: true
-    displayLogo: false
+    displayLogo: true
+    logo:
+      path: images/logo.webp
+      dark: images/logo.webp
+      link: /
+      width: 40
+      height: 40
 
   footer:
     displayCopyright: false
-    displayPoweredBy: true
+    displayPoweredBy: false
 
   editURL:
     enable: true
-    base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
+    base: "https://github.com/aculei/aculei-doc/edit/main/content"
+
+  theme:
+    # light | dark | system
+    default: system
+    displayToggle: true
