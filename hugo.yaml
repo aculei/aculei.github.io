@@ -18,19 +18,15 @@ markup:
 
 menu:
   main:
-    - name: Docs
-      pageRef: /docs
-      weight: 1
-    - name: About
-      pageRef: /about
-      weight: 2
-    - name: Search
-      weight: 3
-      params:
-        type: search
+    # - name: Docs
+    #   pageRef: /docs
+    #   weight: 1
+    # - name: About
+    #   pageRef: /about
+    #   weight: 2
     - name: Contact
       weight: 4
-      url: "Tobia Faverio"
+      url: "https://www.instagram.com/tobiafaverio/"
     - name: Github ↗
       url: "https://github.com/aculei"
       weight: 5
@@ -38,9 +34,13 @@ menu:
         icon: github
     - name: Instagram
       weight: 6
-      url: "https://instagram.com/"
+      url: "https://www.instagram.com/aculei.xyz/"
       params:
         icon: instagram
+    - name: Search
+      weight: 7 
+      params:
+        type: search
 
 params:
   navbar:
