@@ -18,15 +18,19 @@ markup:
 
 menu:
   main:
-    # - name: Docs
-    #   pageRef: /docs
-    #   weight: 1
-    # - name: About
-    #   pageRef: /about
-    #   weight: 2
+    - name: Docs
+      pageRef: /docs
+      weight: 1
+    - name: About
+      pageRef: /about
+      weight: 2
     - name: Contact
-      weight: 4
+      weight: 3
       url: "https://www.instagram.com/tobiafaverio/"
+    - name: Search
+      weight: 4
+      params:
+        type: search
     - name: Github ↗
       url: "https://github.com/aculei"
       weight: 5
@@ -37,10 +41,21 @@ menu:
       url: "https://www.instagram.com/aculei.xyz/"
       params:
         icon: instagram
-    - name: Search
-      weight: 7 
+  
+  sidebar:
+    - identifier: more
+      name: More
       params:
-        type: search
+        type: separator
+      weight: 1
+    - identifier: about
+      name: "About"
+      pageRef: "/about"
+      weight: 2
+    - identifier: hugoDocs
+      name: "Hugo Docs ↗"
+      url: "https://gohugo.io/documentation/"
+      weight: 3
 
 params:
   navbar:
@@ -52,10 +67,16 @@ params:
       link: /
       width: 40
       height: 40
+    width: normal
 
   footer:
-    displayCopyright: false
-    displayPoweredBy: false
+    enable: true
+    displayCopyright: true
+    displayPoweredBy: true
+    width: normal
+  
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
 
   editURL:
     enable: true

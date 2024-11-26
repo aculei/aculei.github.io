@@ -1,18 +1,8 @@
 ---
 title: Documentation
-next: first-page
+next: general-architecture
 ---
 
-This is a demo of the theme's documentation layout.
+<div class="hx-mt-12"></div>
 
-## Hello, World!
-
-```go {filename="main.go"}
-package main
-
-import "fmt"
-
-func main() {
-    fmt.Println("Hello, World!")
-}
-```
+{{< pdf "aculei.pdf" >}}

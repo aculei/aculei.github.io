@@ -1,8 +1,8 @@
 ---
-title: Demo Page
+title: General architecture
 type: docs
 prev: /
-next: docs/folder/
+next: /
 ---
 
 A simple demo page.
