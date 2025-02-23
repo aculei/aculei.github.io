@@ -1,8 +1,9 @@
 ---
 title: Documentation
-next: general-architecture
+next: project-architecture
 ---
 
-<div class="hx-mt-12"></div>
+![wesbite](website.webp)
 
-{{< pdf "aculei.pdf" >}}
+- [Architecture](project-architecture)
+- [Components](components)

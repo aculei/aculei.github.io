@@ -5,7 +5,6 @@ toc: false
 ---
 
 {{< hextra/hero-badge >}}
-
   <div class="hx-w-2 hx-h-2 hx-rounded-full hx-bg-primary-400"></div>
   <span>Made with love by aculei team</span>
   {{< icon name="arrow-circle-right" attributes="height=14">}}
@@ -13,15 +12,15 @@ toc: false
 
 <div class="hx-mt-6 hx-mb-6">
 {{< hextra/hero-headline >}}
-  Hunter camera photo archive &nbsp;<br class="sm:hx-block hx-hidden" />with machine learning &nbsp;<br class="sm:hx-block hx-hidden" /> image post-processing
+  Hunter camera photo archive &nbsp;<br class="sm:hx-block hx-hidden" />featuring image processing for animal detection 
 {{< /hextra/hero-headline >}}
 </div>
 
-<div class="hx-mb-12">
+<!-- <div class="hx-mb-12">
 {{< hextra/hero-subtitle >}}
-   Animals labelling, statistics and dataset building
+  Zero-Shot image classification, OCR 
 {{< /hextra/hero-subtitle >}}
-</div>
+</div> -->
 
 <div class="hx-mb-6">
 {{< hextra/hero-button text="See it live at aculei.xyz" link="https://aculei.xyz" >}}
@@ -51,7 +50,7 @@ style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla
 
 {{< hextra/feature-card
 title="Seven hunter cameras"
-subtitle="Different animals for different cameras"
+subtitle="Displayed in Umbria forest near Perugia"
 class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
 image="images/deer.jpeg"
 imageClass="hx-w-full sm:hx-w-[110%] dark:hx-opacity-80"
