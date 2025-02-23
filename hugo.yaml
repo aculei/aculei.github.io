@@ -1,5 +1,5 @@
 # Hugo configuration file
-title: aculei-doc
+title: aculei
 
 # import hextra as module
 module:
@@ -76,7 +76,7 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/aculei/aculei-doc/edit/main/content"
+    base: "https://github.com/aculei/aculei.github.io/edit/main/content"
 
   theme:
     # light | dark | system
